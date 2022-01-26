@@ -1,0 +1,45 @@
+{
+    "name": "Random Quote Machine",
+    "short_name": "Random Quote Machine",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "description": "A simple web app that aims to inspire you with some inspiration quotes from famous inspirational people",
+    "dir": "ltr",
+    "categories": "education,lifestyle",
+    "lang": "en",
+    "orientation": "any",
+    "scope": "/",
+    "theme_color": "#ffffff","icons": [
+      {
+        "src": "/assets/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/favicon.ico",
+        "sizes": "48x48",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "/assets/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      }
+    ]
+  }
