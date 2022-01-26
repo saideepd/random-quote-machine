@@ -23,6 +23,19 @@ body {
   align-items: center;
   height: 100vh;
 }
+
+.row {
+  margin-top: -5em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: #ffffff;
+}
 /*
 a {
 	font-weight: 500;
