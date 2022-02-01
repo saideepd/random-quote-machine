@@ -63,7 +63,7 @@ function getQuote() {
     $(".quote-author").animate({ opacity: 0 }, 500, function () {
         $(this).animate({ opacity: 1 }, 500);
 
-        $("#author").html(randomQuote.author);
+        $("#author").html(`- ${randomQuote.author ?? "Unknown"}`);
     });
 
     var color = Math.floor(Math.random() * colors.length);
