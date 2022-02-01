@@ -120,3 +120,52 @@ i {
   font-size: 0.75em;
   float: right;
 }
+
+.fa {
+  font-size: larger;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    height: auto;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+  }
+
+  .row {
+    text-align: center;
+    margin-top: 2em;
+  }
+
+  #quote-box, .quote-text, .quote-author, .buttons {
+    width: auto;
+  }
+
+  #quote-box {
+    padding: 3em 2em;
+  }
+
+  .quote-text {
+    font-size: 1.85em;
+  }
+
+  .quote-author {
+    font-size: 1.5em;
+  }
+
+  .buttons {
+    margin-top: 3em;
+  }
+
+  i {
+    font-size: larger;
+  }
+
+  button {
+    font-size: large;
+  }
+}
