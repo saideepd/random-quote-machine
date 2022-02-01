@@ -80,6 +80,12 @@ function getQuote() {
         },
         1000
     );
+    $("h1").animate(
+      {
+        backgroundColor: colors[color]
+      },
+      1000
+    );
 }
 
 $(document).ready(function () {
